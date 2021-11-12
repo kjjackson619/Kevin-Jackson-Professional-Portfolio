@@ -1,6 +1,6 @@
 :root {
-    --primary-color: rgb(37, 41, 53);
-    --secondary-color: rgb(37, 118, 145);
+    --primary-color: rgb(46, 51, 70);
+    --secondary-color: rgb(58, 161, 196);
     --tertiary-color: rgb(250, 250, 250);;
 }
 
@@ -53,18 +53,26 @@ header nav ul li a:hover {
 
 }
 .subtitle {
-    float: right;
-    margin-right: 80px;
-    display: inline;
+    background-image: url("../images/ux-designer-portfolios-59442fc10a13700c71c7e7f0951416fe.png");
+    background-size: cover;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+    padding-bottom: 150px;
+}
+.subtitle h1 {
+    text-align: right;
     font-family: Helvetica, Arial, sans-serif;
-    font-weight: lighter;
+    font-weight: normal;
 }
 .elements {
     display: block;
 }
 .elements h2 {
-    align-items: left;
+    flex-wrap: wrap;
+    display: flex;
+    
 }
 .elements p {
-    align-items: right;
+
 }
