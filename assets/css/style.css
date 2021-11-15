@@ -103,14 +103,29 @@ footer {
     margin: 50px 50px 0 125px;
     padding-left: 10px;
     border-right: 3px solid;
+    flex-wrap: wrap;
+   display: flex;
 }
+
 .bio {
     color: var(--tertiary-color);
     width: 100%;
     justify-content: space-between;
     flex-wrap: wrap;
     display: flex;
+    position: relative;
+    bottom: -50px;
+    left: 42px;
 
+}
+.bio h2 {
+    padding-right: 15px;
+
+}
+
+.contact h2, .my-resume h2 {
+    padding-right: 20px;
+  
 }
 
 .projects, .contact, .my-resume {
@@ -124,6 +139,10 @@ footer {
     font-size: 20px;
     font-family: Helvetica, Arial, sans-serif;
 }
+.projects {
+    padding: 200px 30px 600px 20px;
+    border-right: 3px solid var(--primary-color);
+}
 .bio p {
     margin: 50px 50px 0 0;
     padding-right: 10px;
@@ -132,29 +151,31 @@ footer {
 .project-1 {
     border: solid 3px var(--secondary-color);
     position: absolute;
-    bottom: -120px;
-    right: 200px;
+    bottom: -600px;
+    left: 360px;
     padding: 5px;
     text-decoration: none;
-    background-color: var(--secondary-color);
 }
 .project-2 {
     border: solid 3px var(--secondary-color);
     position: absolute;
-    bottom: -120px;
-    left: 350px;
+    bottom: -880px;
+    left: 360px;
     padding: 5px;
+  
+}
+.project-1 h3, .project-2 h3, .project-1 p, .project-2 p{
     background-color: var(--secondary-color);
+    border: solid 3px var(--secondary-color);
 }
 .project-1 a, .project-2 a, .project-1 p, .project-2 p {  
     color: rgb(39, 38, 38);
     text-decoration: none;  
 
 }
-.project-1 a:hover, .project-2 a:hover {
-}
-.project-1 a:visited, .project-2 a:visited {
-    color:var(--primary-color);
+.project-1:hover, .project-2:hover, .project-1:focus, .project-2:focus {
+outline: none;
+background-color:var(--tertiary-color)
 }
 .contact-info, .resume-link {
     padding-top: 120px;
