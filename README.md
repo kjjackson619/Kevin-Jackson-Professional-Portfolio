@@ -1,4 +1,4 @@
-# Kevin-Jackson-Professional-Portfolio
+# Kevin Jackson Professional Portfolio
 
 ## Purpose
 A website displaying my project portfolio. Built with links to my projects, my contact info, and resume.
@@ -8,7 +8,7 @@ A website displaying my project portfolio. Built with links to my projects, my c
 * CSS
 
 ## Website
-
+https://kjjackson619.github.io/Kevin-Jackson-Professional-Portfolio/
 
 ## Contribution
 Made by Kevin Jackson
